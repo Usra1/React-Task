@@ -75,16 +75,4 @@ class PostList extends Component{
   }
 }
 
-// class PostList extends Component {
-//   render() {
-//     return (
-//       <div>
-//         {PostData.map((postDetail, index) => {
-//           return <PostListProps post={postDetail} key={`post-list-key ${index}`} />
-//         })}
-//       </div>
-
-//     )
-//   }
-// }
 export default PostList;
